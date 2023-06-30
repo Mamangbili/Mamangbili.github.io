@@ -16,7 +16,7 @@
 
 <body class=" font-roboto   h-screen relative">
     <nav class="flex align-middle justify-around w-full top-5 z-40 fixed p-2   text-xl ">
-        <ul class="list-none list-inside flex gap-20">
+        <ul class="list-none list-inside flex gap-10 sm:gap-20">
             <li class="text-white"><a href="#about">
                     <button 
                         class=" rounded-xl border-y-4 p-2  hover:bg-sky-300 hover:text-black duration-200">About</button>
@@ -51,7 +51,7 @@
             <!-- gambar dan text, wave-->
             <div class="flex justify-center gap-x-10  h-screen ">
                 <div class="flex absolute top-1/2 -translate-y-1/2 gap-x-10">
-                    <div class="bg-red-300 w-64 h-64 rounded-full ">
+                    <div class="bg-red-300 w-32 h-32 sm:w-64 sm:h-64 rounded-full ">
                         <img src="./src/saya.jpg" class="object-cover h-full w-full rounded-full p-2 shadow-md">
                     </div>
                     <div class="w-52">
@@ -115,11 +115,11 @@
 
         </div>
         <!-- skill -->
-        <div class="h-screen w-screen bg-white relative z-0  flex justify-center items-center  ">
+        <div id="skills"  class="h-screen w-screen bg-white relative z-0  flex justify-center items-center  ">
             <div class="mt-44">
                 <h2 class="flex justify-center text-2xl ">SKILLS</h2>
 
-                <div id="skills" class=" relative mt-5 flex w-96 flex-wrap gap-y-10 gap-x-10 justify-evenly h-auto">
+                <div  class=" relative mt-5 flex w-96 flex-wrap gap-y-10 gap-x-10 justify-evenly h-auto">
                     <div class="flex items-center">
                         <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png"
                             class="h-10 w-10">
@@ -184,7 +184,7 @@
                 </svg></div>
 
             <div class="w-full flex justify-center border-y-4">
-                <div class="w-96 p-5   bg-white rounded-xl flex flex-col items-center">
+                <div class="w-72 sm:w-96 p-5   bg-white rounded-xl flex flex-col items-center">
                     Contact me on
                     <section id="contact" class="flex gap-x-10 mt-3">
                         <div>
