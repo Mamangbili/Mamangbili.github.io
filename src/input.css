@@ -1,0 +1,47 @@
+@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind components;
+@tailwind utilities;
+
+
+.wave-left{
+    animation-name : wave-left-animation;
+    animation-duration : 100s;
+    animation-iteration-count : infinite;
+    animation-timing-function : linear;
+    animation-delay: 0s;
+    animation-fill-mode: backward;
+    
+}
+
+@keyframes wave-left-animation{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-66.6%);
+    }
+}
+
+.tombol-hitam {
+    color:black;
+    border-color:black;
+}
+
+.wave-right{
+    animation-name : wave-right-animation;
+    animation-duration :85s;
+    animation-iteration-count : infinite;
+    animation-timing-function : linear;
+    animation-delay: 0s;
+    animation-fill-mode: backward;
+}
+
+@keyframes wave-right-animation{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(66.6%);
+    }
+}
